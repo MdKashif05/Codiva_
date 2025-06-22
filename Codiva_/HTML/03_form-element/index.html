@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+    <style>
+        form{
+            text-align: center;
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 20px;
+        }
+
+        body{
+            background-color: rgb(149, 144, 179);
+            justify-content: center;
+        }
+        
+        ::placeholder{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>LOGIN FORM</h1>
+    <hr>
+
+    <form action="/index.html">
+        <p>
+        <div><label for="Name">YOUR NAME</label></div>
+        <input id="Name" type="text" placeholder="Enter your name" required>
+        </p>
+        <p>
+        <div><label for="Password">YOUR PASSWORD</label></div>
+        <input id="Password" type="password" placeholder="Enter your password" required maxlength="8">
+        </p>
+        <p>
+        <div><label for="Email">YOUR EMAIL ID</label></div>
+        <input id="Email" type="email" placeholder="Enter your email id" required>
+        </p>
+        <p>
+        <div><label for="dob">DATE OF BIRTH</label></div>
+        <input id="dob" type="date" required>
+        </p>
+        <p>
+        <div><label for="mobile">YOUR MOBILE NUMBER</label></div>
+        <input id="mobile" type="tel" placeholder="123-456-789" required maxlength="10" >
+        </p>
+        <label for="checkbox">I AGREE THAT ALL THE INFORMATION GIVEN BY ME,IS CORRECT</label>
+        <input id="checkbox" type="checkbox" required>
+        </p>
+
+        <button type="reset">RESET</button>
+        <button>SUBMIT</button>
+       
+       
+
+
+
+
+
+    </form>
+    
+</body>
+</html>

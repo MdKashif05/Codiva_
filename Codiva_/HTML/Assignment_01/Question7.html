@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <head>
+    <style>
+        form{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 20px;
+        }
+        body{
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <h1>Regestration Form</h1>
+    <hr>
+     <form action="/Question7.html">
+        <label for="name">Your Name</label>
+        <input id="name" type="text" placeholder="Enter Your Name" required >
+        <p></p>
+        <label for="email">Your Email ID</label>
+        <input id="email" type="email" placeholder="Enter Your Email ID" required >
+        <p></p>
+        <label for="password">Your Password</label>
+        <input id="password" type="password" placeholder="Enter Your Password" required maxlength="8" >
+        <p></p>
+        <label for="conpass">Confirm Password</label>
+        <input id="conpass" type="password" placeholder="Confirm Password" required maxlength="8">
+        <p></p>
+       <strong>Choose Gender :-</strong>
+        <label for="male">Male</label>
+        <input id="male" type="radio" name="gender" >
+        
+        <label for="female">Female</label>
+        <input id="female" type="radio" name="gender">
+        <p></p>
+        <label for="country"><strong>Choose Country :-</strong></label>
+        <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="Nepal">Nepal</option>
+            <option value="China">China</option>
+            <option value="Pakistan">Pakistan</option>
+        </select>
+        <p></p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+     </form>
+</body>
+</html>

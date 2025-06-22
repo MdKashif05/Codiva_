@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colspan & Rowspan</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      td {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table style="width: 100%">
+      <tr>
+        <th colspan="2">Name</th>
+        <th>Age</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Branch</th>
+      </tr>
+      <tr>
+        <td>Prithvi</td>
+        <td>Rajan</td>
+        <td>18</td>
+        <td>Muzaffarpur</td>
+        <td rowspan="2">Bihar</td>
+        <td rowspan="2">CSE</td>
+      </tr>
+      <tr>
+        <td>Shashikant</td>
+        <td>Suraj</td>
+        <td>19</td>
+        <td>Begusarai</td>
+      </tr>
+    </table>
+  </body>
+</html>
